@@ -1,0 +1,13 @@
+@tailwind preflight;
+
+@tailwind components;
+
+@tailwind utilities;
+
+a {
+  @apply no-underline text-grey-darkest;
+}
+
+a:hover {
+  @apply text-red;
+}
